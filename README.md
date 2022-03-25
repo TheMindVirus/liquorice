@@ -90,7 +90,7 @@ awaiting a UEFI PEI/DXE/BDS Driver and EFI calls to `PostCode(0xAA);` for it to 
 Shorting +5V to GND. Never do it. +5V or +3.3V is known as "High" and GND is known as "Ground",
 which would make that situation the "High Ground", and it would be very much over Anakin.
 If your board didn't have High Ground Protection it would be bricked with reverse current.
-These are just some LED's though, so they can't be "bricked" in the traditional sense with reverse current.
+These are just some LED's though, so they can't be "bricked" in the traditional sense.
 
 "Hey, Overclockers, this is how you get your Q-Codes": https://github.com/TheMindVirus/liquorice
 "POST codes are arbitrary at this point." - I think they're going to stay that way for a long time,

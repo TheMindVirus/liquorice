@@ -7,6 +7,7 @@ can be connected directly to GPIO pins without an I2C Microcontroller for easier
 from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI. POST codes are arbitrary at this point.
 
 # Pinout
+This pinout may vary between revisions of the board and different 7-Segment Displays.
 | Board Pin | Physical Pin | GPIO Pin | Comment |
 | --- | --- | --- | --- |
 | 1 (E1) | 16 | GPIO23 | - |

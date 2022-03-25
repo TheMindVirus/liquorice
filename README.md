@@ -22,6 +22,9 @@ Also compatible with LBP-602A-K2: https://www.mouser.co.uk/datasheet/2/348/lbp-6
 
 # Prototyping
 
+This is what a hand-built prototype will end up looking like on veroboard. It must have at least one \
+Dual-7-Segment display for 8-bit POST Codes and anywhere upto 4 Quad-7-Segment displays for 64-bit POST Codes.
+
 ![IMG_5350](https://github.com/themindvirus/liquorice/blob/main/IMG_5350.jpg)
 
 The idea came straight after having successfully obtained a list of Q-Codes from ASUS Q-Code Logger \

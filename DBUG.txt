@@ -1,0 +1,26 @@
+[DBUG]: POWER ON
+[DBUG]: 0000:02 [00] No Microcode Update Available
+[DBUG]: 0CB2:FF [B2] Legacy Option ROM Initialization
+[DBUG]: 0C92:01 [92] PCI Bus Initialization
+[DBUG]: 0C98:01 [98] Console Input Devices Connect
+[DBUG]: 0C99:FF [99] Super IO Initialization
+[DBUG]: 0C9D:01 [9D] USB Enable
+[DBUG]: 0C9C:FF [9C] USB Detect
+[DBUG]: 0CBC:01 [BC] AMI BIOS Clear Parity Checkers (Oracle)
+[DBUG]: 0CB4:FF [B4] USB Hotplug
+[DBUG]: 0C9C:FF [9C] USB Detect
+[DBUG]: 0CB4:FF [B4] USB Hotplug
+[DBUG]: 0C9C:FF [9C] USB Detect
+[DBUG]: 0CBC:01 [BC] AMI BIOS Clear Parity Checkers (Oracle)
+[DBUG]: 0CB4:FF [B4] USB Hotplug
+[DBUG]: 0C92:06 [92] PCI Bus Initialization
+[DBUG]: 0CA0:8A [A0] IDE Initialization
+[DBUG]: 0CA2:FF [A2] IDE Detect
+[DBUG]: 0C99:03 [99] Super IO Initialization
+[DBUG]: 0CA0:01 [A0] IDE Initialization
+[DBUG]: 0CA2:FF [A2] IDE Detect
+[DBUG]: 0CAD:FF [AD] Ready To Boot Signal
+[DBUG]: 0CB1:FF [B1] AMI BIOS POST End (Oracle)
+[DBUG]: 0CA0:48 [A0] IDE Initialization
+[DBUG]: 0CAA:-- [AA] System has Transitioned into ACPI Mode | Interrupt Controller is in APIC Mode
+[DBUG]: BOOT

@@ -28,8 +28,8 @@ from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI.
 | 17 (G1) | 13 | GPIO27 | Adjacent to Header |
 | 18 (F1) | 15 | GPIO22 | Adjacent to Header |
 | UART (\_) | 6 | GND | Common Ground |
-| UART (TX) | 8 | GPIO14 | - |
-| UART (RX) | 10 | GPIO15 | - |
+| UART (TX) | 8 | GPIO14 | Serial Transmission from Pi |
+| UART (RX) | 10 | GPIO15 | Serial Reception into Pi |
 | FAN (\_) | 1 | GND | Common Ground |
 | FAN (+V) | 2 | +5V | Do Not Short to GND |
 

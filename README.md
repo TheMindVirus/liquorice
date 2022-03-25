@@ -52,7 +52,7 @@ and displaying it on an Adafruit Macropad RP2040. I designed a quick pencil sche
 ![IMG_5342](https://github.com/themindvirus/liquorice/blob/main/IMG_5342.jpg)
 
 Once I had decided which arrangement of GPIO pins was easiest to wire by hand, I set about safely \
-cutting traces on some veroboard cut and filed to size. Then I commenced hand-soldering tiny red wires.
+cutting traces on some veroboard, cut and filed to size. Then I commenced hand-soldering lots of tiny red wires.
 
 ![IMG_5344](https://github.com/themindvirus/liquorice/blob/main/IMG_5344.jpg)
 

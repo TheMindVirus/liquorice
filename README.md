@@ -81,3 +81,20 @@ black lace flex started to remind me of a classic candy sweet called Liquorice, 
 
 The prototype has been built but currently the support for this pinout of POST Code Display is \
 awaiting a UEFI PEI/DXE/BDS Driver and EFI calls to `PostCode(0xAA);` for it to be a useful device.
+
+```
+The USB DBUG Card thing hits a bit of a chicken and the egg situation, BIOS is for early detection of USB devices
+but you can't show that on your USB 7-Segment display because it hasn't been detected in the first place -_(\
+It's the same with I2C, it would have to have some very platform specific and very rudimentary I2C bit-banging
+until you had proper I2C control from the Host OS of which hasn't started yet.
+
+Raw GPIO is the way to go, it's considerably less complicated and Raw LED's can be swapped out.
+GPIO on Pi is possible, but not as straightforward as it could be.
+Instead of writing to 1 register you have to write to 3 per pin to set it up, but that's the job of a DXE driver.
+That part has already been written, as has UART in the same way, but still lots more setup involved than necessary.
+
+What would be really neat is a display powered directly by UART, so you could send "A", "A" and it would update,
+or "\n" to clear it. That would only use 4 pins for any number of digits.
+I reckon the StemmaQT/Qwiic Quad-7-Segment Displays can be daisy-chained together, so chain 4 of them and
+reserve a Hardware I2C from the Pi to power that...never tried it, don't have the kit in front of me.
+```

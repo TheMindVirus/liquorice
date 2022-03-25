@@ -57,11 +57,11 @@ cutting traces on some veroboard, cut and filed to size. Then I commenced hand-s
 ![IMG_5344](https://github.com/themindvirus/liquorice/blob/main/IMG_5344.jpg)
 
 Prototyping this way is not the best way to do it and neither is connecting ground with lines of solder. \
-PCB would be better. I also couldn't help noticing the wiring looked a bit like a Menorah, Happy Hanukkah!
+A PCB would be better. I also couldn't help noticing the wiring looked a bit like a Menorah, Happy Hanukkah!
 
 ![IMG_5345](https://github.com/themindvirus/liquorice/blob/main/IMG_5345.jpg)
 
-You may also have noticed that I decided to break out the UART and +5V rails at the last minute \
+You may also have noticed that I decided to break out the UART and +5V rails at the last minute, \
 by looking at the schematic. When debugging UEFI I often used the UART and a small cooling fan.
 
 ![IMG_5347](https://github.com/themindvirus/liquorice/blob/main/IMG_5347.jpg)

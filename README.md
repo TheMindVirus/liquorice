@@ -7,31 +7,31 @@ can be connected directly to GPIO pins without an I2C Microcontroller for easier
 from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI. POST codes are arbitrary at this point.
 
 # Pinout
-| Board Pin | Physical Pin | GPIO Pin |
-| --- | --- | --- |
-| 1 (E1) | 16 | GPIO23 |
-| 2 (D1) | 18 | GPIO24 |
-| 3 (C1) | 22 | GPIO25 |
-| 4 (.1) | 36 | GPIO16 |
-| 5 (E2) | 38 | GPIO20 |
-| 6 (D2) | 40 | GPIO21 |
-| 7 (G2) | 33 | GPIO13 |
-| 8 (C2) | 35 | GPIO19 |
-| 9 (.2) | 37 | GPIO26 |
-| 10 (B2) | 31 | GPIO6 |
-| 11 (A2) | 29 | GPIO5 |
-| 12 (F2) | 32 | GPIO12 |
-| 13 (\_2) | 25 | GND |
-| 14 (\_1) | 25 | GND |
-| 15 (B1) | 7 | GPIO4 |
-| 16 (A1) | 11 | GPIO17 |
-| 17 (G1) | 13 | GPIO27 |
-| 18 (F1) | 15 | GPIO22 |
-| UART (\_) | 6 | GND |
-| UART (TX) | 8 | GPIO14 |
-| UART (RX) | 10 | GPIO15 |
-| FAN (\_) | 1 | GND |
-| FAN (+V) | 2 | +5V |
+| Board Pin | Physical Pin | GPIO Pin | Comment |
+| --- | --- | --- | --- |
+| 1 (E1) | 16 | GPIO23 | - |
+| 2 (D1) | 18 | GPIO24 | - |
+| 3 (C1) | 22 | GPIO25 | - |
+| 4 (.1) | 36 | GPIO16 | - |
+| 5 (E2) | 38 | GPIO20 | - |
+| 6 (D2) | 40 | GPIO21 | - |
+| 7 (G2) | 33 | GPIO13 | - |
+| 8 (C2) | 35 | GPIO19 | - |
+| 9 (.2) | 37 | GPIO26 | - |
+| 10 (B2) | 31 | GPIO6 | Adjacent to Header |
+| 11 (A2) | 29 | GPIO5 | - |
+| 12 (F2) | 32 | GPIO12 | - |
+| 13 (\_2) | 25 | GND | - |
+| 14 (\_1) | 25 | GND | - |
+| 15 (B1) | 7 | GPIO4 | Adjacent to Header, 1-Wire Interface |
+| 16 (A1) | 11 | GPIO17 | - |
+| 17 (G1) | 13 | GPIO27 | Adjacent to Header |
+| 18 (F1) | 15 | GPIO22 | Adjacent to Header |
+| UART (\_) | 6 | GND | - |
+| UART (TX) | 8 | GPIO14 | - |
+| UART (RX) | 10 | GPIO15 | - |
+| FAN (\_) | 1 | GND | - |
+| FAN (+V) | 2 | +5V | Do Not Short to GND |
 
 The Dual 7-Segment Display in use here is the LB-602VK2 337Y from ROHM Semiconductor \
 Also compatible with LBP-602A-K2: https://www.mouser.co.uk/datasheet/2/348/lbp-602ak2-e-1874551.pdf

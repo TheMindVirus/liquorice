@@ -20,14 +20,14 @@ This pinout may vary between revisions of the board and different 7-Segment Disp
 | 8 (C2) | 35 | GPIO19 | - |
 | 9 (.2) | 37 | GPIO26 | - |
 | 10 (B2) | 31 | GPIO6 | Adjacent to Header |
-| 11 (A2) | 29 | GPIO5 | - |
+| 11 (A2) | 29 | GPIO5 | Adjacent to Header |
 | 12 (F2) | 32 | GPIO12 | - |
-| 13 (\_2) | 25 | GND | Common Ground |
+| 13 (\_2) | 25 | GND | Common Ground, Adjacent to Header |
 | 14 (\_1) | 25 | GND | Common Ground |
 | 15 (B1) | 15 | GPIO22 | Adjacent to Header |
 | 16 (A1) | 13 | GPIO27 | - |
-| 17 (G1) | 11 | GPIO17 | Adjacent to Header |
-| 18 (F1) | 7 | GPIO4 | Adjacent to Header, 1-Wire Interface |
+| 17 (G1) | 11 | GPIO17 | - |
+| 18 (F1) | 7 | GPIO4 | 1-Wire Interface |
 | UART (\_) | 6 | GND | Common Ground |
 | UART (TX) | 8 | GPIO14 | Serial Transmission from Pi |
 | UART (RX) | 10 | GPIO15 | Serial Reception into Pi |

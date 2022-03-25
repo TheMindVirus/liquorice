@@ -13,7 +13,25 @@ from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI.
 | 2 (D1) | 18 | GPIO24 |
 | 3 (C1) | 22 | GPIO25 |
 | 4 (.1) | 36 | GPIO16 |
-[pending completion]
+| 5 (E2) | 38 | GPIO20 |
+| 6 (D2) | 40 | GPIO21 |
+| 7 (G2) | 33 | GPIO13 |
+| 8 (C2) | 35 | GPIO19 |
+| 9 (.2) | 37 | GPIO26 |
+| 10 (B2) | 31 | GPIO6 |
+| 11 (A2) | 29 | GPIO5 |
+| 12 (F2) | 32 | GPIO12 |
+| 13 (\_2) | 25 | GND |
+| 14 (\_1) | 25 | GND |
+| 15 (B1) | 7 | GPIO4 |
+| 16 (A1) | 11 | GPIO17 |
+| 17 (G1) | 13 | GPIO27 |
+| 18 (F1) | 15 | GPIO22 |
+| UART (\_) | 6 | GND |
+| UART (TX) | 8 | GPIO14 |
+| UART (RX) | 10 | GPIO15 |
+| FAN (\_) | 1 | GND |
+| FAN (+V) | 2 | +5V |
 
 The Dual 7-Segment Display in use here is the LB-602VK2 337Y from ROHM Semiconductor \
 Also compatible with LBP-602A-K2: https://www.mouser.co.uk/datasheet/2/348/lbp-602ak2-e-1874551.pdf
@@ -23,7 +41,7 @@ Also compatible with LBP-602A-K2: https://www.mouser.co.uk/datasheet/2/348/lbp-6
 # Prototyping
 
 This is what a hand-built prototype will end up looking like on veroboard. It must have at least one \
-Dual-7-Segment display for 8-bit POST Codes and anywhere upto 4 Quad-7-Segment displays for 64-bit POST Codes.
+Dual-7-Segment display for 8-bit POST Codes and anywhere up to 4 Quad-7-Segment displays for 64-bit POST Codes.
 
 ![IMG_5350](https://github.com/themindvirus/liquorice/blob/main/IMG_5350.jpg)
 

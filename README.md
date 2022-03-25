@@ -6,7 +6,18 @@ Currently in Prototype Phase and as yet untested, but the theory is that 7-Segme
 can be connected directly to GPIO pins without an I2C Microcontroller for easier debugging \
 from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI. POST codes are arbitrary at this point.
 
-<Insert Pinout Here>
+# Pinout
+| Board Pin | Physical Pin | GPIO Pin |
+| --- | --- | --- |
+| 1 (E1) | 16 | GPIO23 |
+| 2 (D1) | 18 | GPIO24 |
+| 3 (C1) | 22 | GPIO25 |
+| 4 (.1) | 36 | GPIO16 |
+[pending completion]
+The Dual 7-Segment Display in use here is the LB-602VK2 337Y from ROHM Semiconductor \
+Also compatible with LBP-602A-K2: https://www.mouser.co.uk/datasheet/2/348/lbp-602ak2-e-1874551.pdf
+
+![Pinout](https://github.com/themindvirus/liquorice/blob/main/pinout.png)
 
 ![IMG_5350](https://github.com/themindvirus/liquorice/blob/main/IMG_5350.jpg)
 

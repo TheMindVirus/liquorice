@@ -21,16 +21,16 @@ from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI.
 | 10 (B2) | 31 | GPIO6 | Adjacent to Header |
 | 11 (A2) | 29 | GPIO5 | - |
 | 12 (F2) | 32 | GPIO12 | - |
-| 13 (\_2) | 25 | GND | - |
-| 14 (\_1) | 25 | GND | - |
+| 13 (\_2) | 25 | GND | Common Ground |
+| 14 (\_1) | 25 | GND | Common Ground |
 | 15 (B1) | 7 | GPIO4 | Adjacent to Header, 1-Wire Interface |
 | 16 (A1) | 11 | GPIO17 | - |
 | 17 (G1) | 13 | GPIO27 | Adjacent to Header |
 | 18 (F1) | 15 | GPIO22 | Adjacent to Header |
-| UART (\_) | 6 | GND | - |
+| UART (\_) | 6 | GND | Common Ground |
 | UART (TX) | 8 | GPIO14 | - |
 | UART (RX) | 10 | GPIO15 | - |
-| FAN (\_) | 1 | GND | - |
+| FAN (\_) | 1 | GND | Common Ground |
 | FAN (+V) | 2 | +5V | Do Not Short to GND |
 
 The Dual 7-Segment Display in use here is the LB-602VK2 337Y from ROHM Semiconductor \

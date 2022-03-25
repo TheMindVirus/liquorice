@@ -102,8 +102,8 @@ The USB DBUG Card thing hits a bit of a chicken and the egg situation.
 BIOS is for early detection of USB devices but you can't show that
 on your USB 7-Segment display because it hasn't been detected in the first place -_(\
 It's the same with I2C, it would have to have some very platform specific and
-very rudimentary I2C bit-banging until you had proper I2C
-control from the Host OS of which hasn't started yet.
+very rudimentary I2C bit-banging until you had proper I2C control
+from the Host OS of which hasn't started yet.
 
 Raw GPIO is the way to go, it's considerably less complicated and Raw LED's can be swapped out.
 GPIO on Pi is possible, but not as straightforward as it could be.

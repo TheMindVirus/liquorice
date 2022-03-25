@@ -1,6 +1,6 @@
 # liquorice
 ```diff
-- Strawberry Liquorice DBUG Card for displaying UEFI POST codes for Raspberry Pi Windows
+- Strawberry Liquorice DBUG Card for displaying UEFI POST codes for Raspberry Pi Windows -
 ```
 Currently in Prototype Phase and as yet untested, but the theory is that 7-Segment Displays \
 can be connected directly to GPIO pins without an I2C Microcontroller for easier debugging \
@@ -24,10 +24,10 @@ This pinout may vary between revisions of the board and different 7-Segment Disp
 | 12 (F2) | 32 | GPIO12 | - |
 | 13 (\_2) | 25 | GND | Common Ground |
 | 14 (\_1) | 25 | GND | Common Ground |
-| 15 (B1) | 7 | GPIO4 | Adjacent to Header, 1-Wire Interface |
-| 16 (A1) | 11 | GPIO17 | - |
-| 17 (G1) | 13 | GPIO27 | Adjacent to Header |
-| 18 (F1) | 15 | GPIO22 | Adjacent to Header |
+| 15 (B1) | 15 | GPIO22 | Adjacent to Header |
+| 16 (A1) | 13 | GPIO27 | - |
+| 17 (G1) | 11 | GPIO17 | Adjacent to Header |
+| 18 (F1) | 7 | GPIO4 | Adjacent to Header, 1-Wire Interface |
 | UART (\_) | 6 | GND | Common Ground |
 | UART (TX) | 8 | GPIO14 | Serial Transmission from Pi |
 | UART (RX) | 10 | GPIO15 | Serial Reception into Pi |

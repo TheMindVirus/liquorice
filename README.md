@@ -47,7 +47,7 @@ display for 8-bit POST Codes and anywhere up to 4 Quad-7-Segment displays for 64
 ![IMG_5350](https://github.com/themindvirus/liquorice/blob/main/IMG_5350.jpg)
 
 The idea came straight after having successfully obtained a list of Q-Codes from ASUS Q-Code Logger \
-and displaying it on an Adafruit Macropad RP2040. I designed a quick schematic (upside-down in-reverse).
+and displaying it on an Adafruit Macropad RP2040. I designed a quick pencil schematic (upside-down in-reverse).
 
 ![IMG_5342](https://github.com/themindvirus/liquorice/blob/main/IMG_5342.jpg)
 

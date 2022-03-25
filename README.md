@@ -2,6 +2,9 @@
 ```diff
 - Strawberry Liquorice DBUG Card for displaying UEFI POST codes for Raspberry Pi Windows
 ```
+Currently in Prototype Phase and as yet untested, but the theory is that 7-Segment Displays \
+can be connected directly to GPIO pins without an I2C Microcontroller for easier debugging \
+from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI. POST codes are arbitrary at this point.
 
 ![IMG_5350](https://github.com/themindvirus/liquorice/blob/main/IMG_5350.jpg)
 

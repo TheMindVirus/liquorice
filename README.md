@@ -14,6 +14,7 @@ from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI.
 | 3 (C1) | 22 | GPIO25 |
 | 4 (.1) | 36 | GPIO16 |
 [pending completion]
+
 The Dual 7-Segment Display in use here is the LB-602VK2 337Y from ROHM Semiconductor \
 Also compatible with LBP-602A-K2: https://www.mouser.co.uk/datasheet/2/348/lbp-602ak2-e-1874551.pdf
 

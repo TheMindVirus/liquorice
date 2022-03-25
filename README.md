@@ -106,10 +106,10 @@ very rudimentary I2C bit-banging until you had proper I2C control
 from the Host OS of which hasn't started yet.
 
 Raw GPIO is the way to go, it's considerably less complicated and Raw LED's can be swapped out.
-GPIO on Pi is possible, but not as straightforward as it could be.
-Instead of writing to 1 register you have to write to 3 per pin to set it up,
-but that's the job of a DXE driver. That part has already been written,
-as has UART in the same way, but still lots more setup involved than necessary.
+GPIO on the Pi is possible, but not as straight-forward as it could be.
+Instead of writing to 1 register, you have to write to 3 per pin to set it up.
+That would be job of a UEFI DXE driver and the code to do that has already been written.
+The same goes for the Serial Port driver, but still lots more setup involved than necessary.
 
 What would be really neat is a display powered directly by UART
 so you could send "A", "A" and it would update accordingly, or "\n" to clear it.

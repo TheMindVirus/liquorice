@@ -20,6 +20,8 @@ Also compatible with LBP-602A-K2: https://www.mouser.co.uk/datasheet/2/348/lbp-6
 
 ![Pinout](https://github.com/themindvirus/liquorice/blob/main/pinout.png)
 
+# Prototyping
+
 ![IMG_5350](https://github.com/themindvirus/liquorice/blob/main/IMG_5350.jpg)
 
 The idea came straight after having successfully obtained a list of Q-Codes from ASUS Q-Code Logger \

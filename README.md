@@ -87,27 +87,34 @@ awaiting a UEFI PEI/DXE/BDS Driver and EFI calls to `PostCode(0xAA);` for it to 
 ```
 "Which wire do I have to cut?" the blue one. "There is no blue wire!"
 
-Shorting +5V to GND. Never do it. +5V or +3.3V is known as "High" and GND is known as "Ground", which would make that situation the "High Ground"
-and it would be very much over Anakin, if your board didn't have High Ground Protection it would be bricked.
+Shorting +5V to GND. Never do it. +5V or +3.3V is known as "High" and GND is known as "Ground",
+which would make that situation the "High Ground", and it would be very much over Anakin.
+If your board didn't have High Ground Protection it would be bricked with reverse current.
 These are just some LED's though, so they can't be "bricked" in the traditional sense with reverse current.
 
 "Hey, Overclockers, this is how you get your Q-Codes": https://github.com/TheMindVirus/liquorice
 "POST codes are arbitrary at this point." - I think they're going to stay that way for a long time,
 manufacturers aren't going to agree and consumers want control over it...
-...well what do you want the Post code to be, [AA]? [12]? [69]? [88]? [A1]? [B2]? You just sunk my Battleship!
+...well what do you want your POST Code to be, [AA]? [12]? [69]? [88]? [A1]? [B2]?
+You just sunk my Battleship!
 
-The USB DBUG Card thing hits a bit of a chicken and the egg situation, BIOS is for early detection of USB devices
-but you can't show that on your USB 7-Segment display because it hasn't been detected in the first place -_(\
-It's the same with I2C, it would have to have some very platform specific and very rudimentary I2C bit-banging
-until you had proper I2C control from the Host OS of which hasn't started yet.
+The USB DBUG Card thing hits a bit of a chicken and the egg situation.
+BIOS is for early detection of USB devices but you can't show that
+on your USB 7-Segment display because it hasn't been detected in the first place -_(\
+It's the same with I2C, it would have to have some very platform specific and
+very rudimentary I2C bit-banging until you had proper I2C
+control from the Host OS of which hasn't started yet.
 
 Raw GPIO is the way to go, it's considerably less complicated and Raw LED's can be swapped out.
 GPIO on Pi is possible, but not as straightforward as it could be.
-Instead of writing to 1 register you have to write to 3 per pin to set it up, but that's the job of a DXE driver.
-That part has already been written, as has UART in the same way, but still lots more setup involved than necessary.
+Instead of writing to 1 register you have to write to 3 per pin to set it up,
+but that's the job of a DXE driver. That part has already been written,
+as has UART in the same way, but still lots more setup involved than necessary.
 
-What would be really neat is a display powered directly by UART, so you could send "A", "A" and it would update,
-or "\n" to clear it. That would only use 4 pins for any number of digits.
-I reckon the StemmaQT/Qwiic Quad-7-Segment Displays can be daisy-chained together, so chain 4 of them and
-reserve a Hardware I2C from the Pi to power that...never tried it, don't have the kit in front of me.
+What would be really neat is a display powered directly by UART
+so you could send "A", "A" and it would update accordingly, or "\n" to clear it.
+That would only use 4 pins for any number of digits.
+I reckon the StemmaQT/Qwiic Quad-7-Segment Displays can be daisy-chained together,
+so chain 4 of them and reserve a Hardware I2C from the Pi to power that...
+...never tried it, don't have the kit in front of me.
 ```

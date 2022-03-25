@@ -41,8 +41,8 @@ Also compatible with LBP-602A-K2: https://www.mouser.co.uk/datasheet/2/348/lbp-6
 
 # Prototyping
 
-This is what a hand-built prototype will end up looking like on veroboard. It must have at least one \
-Dual-7-Segment display for 8-bit POST Codes and anywhere up to 4 Quad-7-Segment displays for 64-bit POST Codes.
+This is what a hand-built prototype will end up looking like on veroboard. It must have at least one Dual-7-Segment \
+display for 8-bit POST Codes and anywhere up to 4 Quad-7-Segment displays for 64-bit POST Codes.
 
 ![IMG_5350](https://github.com/themindvirus/liquorice/blob/main/IMG_5350.jpg)
 

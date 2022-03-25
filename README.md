@@ -31,7 +31,7 @@ This pinout may vary between revisions of the board and different 7-Segment Disp
 | UART (\_) | 6 | GND | Common Ground |
 | UART (TX) | 8 | GPIO14 | Serial Transmission from Pi |
 | UART (RX) | 10 | GPIO15 | Serial Reception into Pi |
-| FAN (\_) | 1 | GND | Common Ground |
+| FAN (\_) | 1 | GND | Common Ground, Adjacent to Header |
 | FAN (+V) | 2 | +5V | Do Not Short to GND |
 
 The Dual 7-Segment Display in use here is the LB-602VK2 337Y from ROHM Semiconductor \

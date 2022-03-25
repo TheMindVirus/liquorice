@@ -7,7 +7,7 @@ can be connected directly to GPIO pins without an I2C Microcontroller for easier
 from a baremetal setting such as [pftf-rpi4](https://github.com/pftf/rpi4) UEFI. POST codes are arbitrary at this point.
 
 This may also be useful to Overclockers to get the absolute maximum performance possible \
-out of the Raspberry Pi running UEFI and ACPI compliant Operating Systems.
+out of the Raspberry Pi running AMI-BIOS and UEFI-ACPI compliant Operating Systems.
 
 # Pinout
 This pinout may vary between revisions of the board and different 7-Segment Displays.

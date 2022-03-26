@@ -118,3 +118,9 @@ I reckon the StemmaQT/Qwiic Quad-7-Segment Displays can be daisy-chained togethe
 so chain 4 of them and reserve a Hardware I2C from the Pi to power that...
 ...never tried it, don't have the kit in front of me.
 ```
+
+# Hardware Test
+Tested with Blinka on a Raspberry Pi Zero W @ 00:28 26/03/2022
+100% Fully Functional LED Wiring
+![IMG_5352](https://github.com/themindvirus/liquorice/blob/main/IMG_5352.jpg)
+![IMG_5353](https://github.com/themindvirus/liquorice/blob/main/IMG_5353.jpg)

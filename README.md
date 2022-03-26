@@ -125,5 +125,5 @@ so chain 4 of them and reserve a Hardware I2C from the Pi to power that...
 ### 100% Fully Functional LED Wiring
 ![IMG_5353](https://github.com/themindvirus/liquorice/blob/main/IMG_5353.jpg)
 ### Experimental UEFI Support Added to Pi4 Firmware Task Force UEFI
-### https://github.com/TheMindVirus/pftf-rpi4/tree/1.33-POST
-### https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L50
+#### https://github.com/TheMindVirus/pftf-rpi4/tree/1.33-POST
+#### https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L50

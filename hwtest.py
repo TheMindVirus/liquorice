@@ -17,10 +17,10 @@ pinout = \
     "B2": [None, board.D6,  OUTPUT],
     "A2": [None, board.D5,  OUTPUT],
     "F2": [None, board.D12, OUTPUT],
-    "B1": [None, board.D22, OUTPUT],
-    "A1": [None, board.D27, OUTPUT],
-    "G1": [None, board.D17, OUTPUT],
-    "F1": [None, board.D4,  OUTPUT],
+    "B1": [None, board.D4,  OUTPUT],
+    "A1": [None, board.D17, OUTPUT],
+    "G1": [None, board.D27, OUTPUT],
+    "F1": [None, board.D22, OUTPUT],
 }
 
 for pin in pinout:

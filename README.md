@@ -128,3 +128,6 @@ so chain 4 of them and reserve a Hardware I2C from the Pi to power that...
 ### Experimental UEFI Support Added to Pi4 Firmware Task Force UEFI
 #### https://github.com/TheMindVirus/pftf-rpi4/tree/1.33-POST
 #### https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L50
+### PiX-iES Bare-metal POST of Raspberry Pi4 Peripherals
+#### https://github.com/TheMindVirus/PiX-iES/tree/pi4-post/
+![IMG_5363](https://github.com/themindvirus/liquorice/blob/main/IMG_5363.jpg)

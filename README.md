@@ -131,3 +131,4 @@ so chain 4 of them and reserve a Hardware I2C from the Pi to power that...
 ### PiX-iES Bare-metal POST of Raspberry Pi4 Peripherals
 #### https://github.com/TheMindVirus/PiX-iES/tree/pi4-post/
 ![IMG_5363](https://github.com/themindvirus/liquorice/blob/main/IMG_5363.jpg)
+![IMG_5364](https://github.com/themindvirus/liquorice/blob/main/IMG_5364.jpg)
